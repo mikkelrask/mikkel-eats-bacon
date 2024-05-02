@@ -91,13 +91,16 @@ const images = [
 
 const MasonryComponent = () => {
     return (
-        <ResponsiveMasonry columnsCountBreakPoints={{ 650: 1, 900: 2, 1600: 3 }}>
-            <Masonry columnsCount={3} gutter="1rem">
-                {images.map((image, i) => (
-                    <a href={image.link}><img key={i} src={image.url} style={{ width: "100%", display: "block" }} /></a>
-                ))}
-            </Masonry>
-        </ResponsiveMasonry>
+        <>
+            <ResponsiveMasonry columnsCountBreakPoints={{ 650: 1, 900: 2, 1600: 3 }}>
+                <Masonry columnsCount={3} gutter="1rem">
+                    {images.map((image, i) => (
+                        <a href={image.link}><img key={i} src={image.url} style={{ width: "100%", display: "block" }} /></a>
+                    ))}
+                </Masonry>
+            </ResponsiveMasonry>
+            <p className="footer">all rights reserved © 2024 Mikkel Rask</p>
+        </>
     )
 }
 
