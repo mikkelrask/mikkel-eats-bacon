@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+p.footer {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
