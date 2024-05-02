@@ -18,7 +18,7 @@ const images = [
     },
     {
         url: "../assets/slowednesdays.png",
-        link: "https://vimeo.com/manage/231707739/general"
+        link: "https://vimeo.com/231707739"
     },
     {
         url: "../assets/mædl.webp",
@@ -74,7 +74,7 @@ const images = [
     },
     {
         url: "",
-        link: "https://vimeo.com//234205120"
+        link: "https://vimeo.com/234205120"
     },
     {
         url: "../assets/android.png"
