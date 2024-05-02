@@ -11,3 +11,7 @@ p.footer {
   font-size: 0.8rem;
   color: #888;
 }
+
+img {
+  border-radius: 8px;
+}
