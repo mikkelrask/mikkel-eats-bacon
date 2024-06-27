@@ -41,6 +41,9 @@ const images = [
     url: "../assets/stormbro.jpg",
   },
   {
+    url: "../assets/uniqkey-app.png",
+  },
+  {
     url: "../assets/by-simon-ståhlen.png",
   },
   {
@@ -102,11 +105,7 @@ const MasonryComponent = () => {
         <Masonry columnsCount={3} gutter="1rem">
           {images.map((image, i) => (
             <a href={image.link}>
-              <img
-                key={i}
-                src={image.url}
-                style={{ width: "100%", display: "block" }}
-              />
+              <img key={i} src={image.url} style={{ width: "100%", display: "block" }} />
             </a>
           ))}
         </Masonry>
